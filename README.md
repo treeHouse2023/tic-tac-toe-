@@ -25,7 +25,7 @@ conda activate itrex
 
 Next, we will install the Intel Extension for Transformers and its dependencies.
 
-```bash
+bash
 Copy code
 # Install Intel Extension for Transformers
 pip install intel-extension-for-transformers
@@ -41,14 +41,14 @@ pip install -r requirements_cpu.txt
 
 # Install additional requirements
 pip install -r requirements.txt
-```
+
 
 
 ## Running the Project
 
 To interact with Hugging Face models, log in to the Hugging Face CLI and set up Jupyter and IPython kernel.
 
-```bash
+bash
 Copy code
 # Log in to Hugging Face
 huggingface-cli login
@@ -62,7 +62,7 @@ python3 -m ipykernel install --name neural-chat --user
 # Log in to Hugging Face again if required
 
 huggingface-cli login
-```
+
 
 ## Conclusion
 
